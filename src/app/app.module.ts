@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ProfileComponent } from './profile/profile.component';
 import { ProfileClassComponent } from './profile-class/profile-class.component';
+import { RepoComponent } from './repo/repo.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ProfileClassComponent } from './profile-class/profile-class.component';
     HomeComponent,
     PageNotFoundComponent,
     ProfileComponent,
-    ProfileClassComponent
+    ProfileClassComponent,
+    RepoComponent
   ],
   imports: [
     BrowserModule,

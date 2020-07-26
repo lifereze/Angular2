@@ -1,27 +1,37 @@
-# AngularGit
+# GitSearch
+* This project was generated with Angular CLI version 8.2.2.
+# Author
+[Lifereze Arnold] (https://github.com/lifereze)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
+# Installations
+- nodejs
+- npm
+- angularCLI
+- typescript
+# Setup
+* Run https://github.com/lifereze/Angular2
+* After extracting the files, run
 
-## Development server
+1 . cd gitSearch.
+2 .ng serve.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# Technologies Used
+- Html5
+- Css3
+- Typescript
+- Bootstrap
+- Angular
+- Github Api's
+# BDD(Behaviour Driven Development)
+| Inputs  | Description |
+| ------------- | ------------- |
+| Username |Github username, eg lifereze |
 
-## Code scaffolding
+| Outputs  | Description |
+| ------------- | ------------- |
+|Profile data  | A specific user profile info.|
+| Repositories | All repositories created by a user  |
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+# License
+Copyright [2020] [Lifereze Arnold]
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

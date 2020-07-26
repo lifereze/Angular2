@@ -8,6 +8,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { ProfileComponent } from './profile/profile.component';
 import { ProfileClassComponent } from './profile-class/profile-class.component';
 import { RepoComponent } from './repo/repo.component';
+import { HighlightDirective } from './highlight.directive';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { RepoComponent } from './repo/repo.component';
     PageNotFoundComponent,
     ProfileComponent,
     ProfileClassComponent,
-    RepoComponent
+    RepoComponent,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,

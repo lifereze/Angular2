@@ -9,6 +9,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { ProfileClassComponent } from './profile-class/profile-class.component';
 import { RepoComponent } from './repo/repo.component';
 import { HighlightDirective } from './highlight.directive';
+import { JoinDateCountPipe } from './join-date-count.pipe';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HighlightDirective } from './highlight.directive';
     ProfileComponent,
     ProfileClassComponent,
     RepoComponent,
-    HighlightDirective
+    HighlightDirective,
+    JoinDateCountPipe
   ],
   imports: [
     BrowserModule,
